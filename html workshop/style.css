@@ -1,0 +1,47 @@
+
+
+@media only screen and (min-width:481px) and (max-width:768px);
+.parent{
+    display:flex;
+    flex-direction: column;
+    width:100;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-style: oblique;
+    align-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+    text-decoration: black;
+    color: purple;
+    animation-fill-mode: inherit;
+}
+img{
+    width: 150px;
+    height:150px;
+    border-radius: 10%;
+    background-color: goldenrod;
+    border:solid navy;
+    flex-direction: column;
+}
+.parent>div{
+    width: auto;
+    height: 40%;
+    border: 2px dashed purple;
+    padding: 2%;
+    margin: 2%; 
+    background-color:tan;
+}
+button{
+    background-color:black;
+    width:60%;
+    height:20%;
+    color:blanchedalmond;
+    padding: 2%;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px);
+.card{
+    display:flex;
+    flex-direction: row;
+    
+}
